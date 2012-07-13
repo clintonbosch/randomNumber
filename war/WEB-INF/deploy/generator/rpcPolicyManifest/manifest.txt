@@ -1,2 +1,3 @@
 # Module generator
 # RPC service class, partial path of RPC policy file
+za.co.cmsoftware.random.client.GreetingService, 573C743CA8F09E6C9FC4ACFF3F8ACCD0.gwt.rpc

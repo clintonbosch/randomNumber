@@ -19,7 +19,8 @@ public class GreetingServiceImpl extends RemoteServiceServlet implements
             throw new IllegalArgumentException("Please enter a valid number");
         }
 
-        return String.valueOf(Math.round(Integer.parseInt(maximum) * Math.random()));
+        int max = Integer.parseInt(maximum) - 1;
+        return String.valueOf(Math.round(max * Math.random()) + 1);
     }
 
 }
